@@ -1,0 +1,26 @@
+.board{
+	width: 80%;
+	padding: .3em;
+	border:1px solid red;
+}
+.alphabet{
+	margin: 1em 0;
+}
+.alphabet>span{
+	display: inline-block;
+	width: 1em;
+	padding: 2px;
+	text-align: center;
+	background-color: #F99;
+	cursor: pointer;
+}
+.alphabet>span:hover{
+	font-weight: bold;
+}
+
+.unused{
+	opacity: 1;
+}
+.used{
+	opacity: 0.5;
+}
